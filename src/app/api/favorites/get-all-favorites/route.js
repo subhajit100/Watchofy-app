@@ -2,6 +2,8 @@ import connectToDB from "@/database";
 import Favorite from "@/models/Favorite";
 import { NextResponse } from "next/server";
 
+export const revalidate = 0;
+
 export async function GET(req) {
   try {
     await connectToDB();
