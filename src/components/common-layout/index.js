@@ -14,7 +14,7 @@ const CommonLayout = ({ mediaData, defaultBanner }) => {
       viewport={{ once: true }}
     >
       <Head>
-        <title>Netflix 2.0</title>
+        <title>Watchofy-app</title>
       </Head>
       <>
         <Navbar />

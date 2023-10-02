@@ -108,7 +108,7 @@ const Navbar = () => {
                 src="https://rb.gy/ulxxee"
                 width={120}
                 height={120}
-                alt="NETFLIX"
+                alt="WATHCOFY"
                 className="cursor-pointer object-contain"
                 onClick={() => router.push("/browse")}
               />

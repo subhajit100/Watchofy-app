@@ -20,7 +20,7 @@ export async function POST(req) {
     if (isPinCorrect) {
       return NextResponse.json({
         success: true,
-        message: "Welcome to Netflix!",
+        message: "Welcome to Watchofy!",
       });
     } else {
       return NextResponse.json({

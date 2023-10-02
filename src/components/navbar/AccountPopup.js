@@ -39,7 +39,7 @@ const AccountPopup = ({
             sessionStorage.removeItem("loggedInAccount");
           }}
         >
-          Sign out of Netflix
+          Sign out of Watchofy
         </button>
       </div>
     </div>
